@@ -1,6 +1,10 @@
 # Django-Task-road-safety
 A task given by roadSafety campaign
 
+## About the project
+* This is simple e-commerce website which is populated with some data and we are going make a rest_api for retrival,update and delete
+using django restframework a library provide by Django.
+
 #### How to setup on local machine i.e requirements needed to run the project
 ```
 python 3
