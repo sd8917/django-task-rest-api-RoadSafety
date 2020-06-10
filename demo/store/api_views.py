@@ -44,6 +44,7 @@ class ProductList(generics.ListAPIView):
 
         return queryset
 
+#product creation api_view
 
 class ProductCreate(CreateAPIView):
     serializer_class = ProductSerializer
@@ -56,6 +57,7 @@ class ProductCreate(CreateAPIView):
             if price is not None and float(price) <= 0.0:
                 raise ValidationError({'price': 'price must be above $0.0'})
 
-
         except ValueError:
             raise ValidationError({'price': 'A value number is required '})
+
+        return super().create(request,*args, **kwargs)
