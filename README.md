@@ -40,16 +40,26 @@ simple it will setup all required package on your local machine.
 ## Next
 * we have added the feature if the number of product more than the 3 for pagination using rest_framework package and filter the product according to the id or name.Let's a look by visiting this endpoint   http://127.0.0.1:8000/api/v1/products/
 * Then , go to filter and submit with any id let's 1.
-Have a look how it looks in the browser
+* Have a look how it looks in the browser
 
 ![Screenshot (170)](https://user-images.githubusercontent.com/34008023/84312129-14209800-ab82-11ea-8de8-292c72a1522a.png)
 
 
 ## Next
 * A endpoint to create a product http://127.0.0.1:8000/api/v1/products/new
-It looks in browser 
+* It looks in browser 
 
 ![Screenshot (172)](https://user-images.githubusercontent.com/34008023/84312571-c8222300-ab82-11ea-957e-fe067a78d936.png)
+
+
+
+## Next
+* A endpoint to update and delete a product from table http://127.0.0.1:8000/api/v1/products/1/
+here 1 is product id for updatating or deleting.
+
+* let's have a look at this end point
+
+![Screenshot (174)](https://user-images.githubusercontent.com/34008023/84316843-77fa8f00-ab89-11ea-89ce-576bbbd8f4a0.png)
 
 
 
